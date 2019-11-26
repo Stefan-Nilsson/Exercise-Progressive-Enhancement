@@ -1,17 +1,43 @@
 
+body {
+   background-image:url(bee.png)
 
+    width: 90%;
+    margin:auto;
+    }
 
 p {
-    color: darkslategrey ;
-    word-spacing:"em";
+    color: darkslategrey;
+    word-spacing: "em";
     font-family: serif;
     }
 
-a { color: green;
+a {
+    color: green;
     font-family: "Arial Black";
     font-weight: bolder;
-    
+    }
+
+q {
+
+    display: block;
+    text-align: center;
+    width:50%;
+    font-size:160%;
+    background-color:lightgrey;
+
+    border-left:crimson solid 3px;
+    margin:auto;
+    margin-top:80px;
+    margin-bottom:80px;
+
+
 
 
 
     }
+
+margin-top:80px;
+margin-bottom:80px;
+align-content: center;
+background-image:linear-gradient(to bottom, goldenrod, orange, orangered, red, darkred)
