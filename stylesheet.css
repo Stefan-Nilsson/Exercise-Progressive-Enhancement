@@ -1,10 +1,29 @@
 
-body {
-   background-image:url(bee.png)
+cite:only-of-type
+{background-color:red;}
 
-    width: 90%;
+
+tr:nth-child(odd)
+{background-color:grey;}
+
+tr:nth-child(even)
+{background-color:white;}
+
+
+.Bad {color:red;
+        text-transform: capitalize}
+
+.Good {color:green;
+
+
+    text-transform: capitalize}
+
+body {
     margin:auto;
+    background-image:linear-gradient(to bottom, goldenrod, orange, orangered, red, darkred)
     }
+
+.farmer {border-left:deepskyblue solid 3px}
 
 p {
     color: darkslategrey;
@@ -19,25 +38,24 @@ a {
     }
 
 q {
-
+    border-left:crimson solid 3px;
     display: block;
     text-align: center;
     width:50%;
     font-size:160%;
     background-color:lightgrey;
 
-    border-left:crimson solid 3px;
+
     margin:auto;
     margin-top:80px;
     margin-bottom:80px;
 
 
 
-
-
     }
+
 
 margin-top:80px;
 margin-bottom:80px;
 align-content: center;
-background-image:linear-gradient(to bottom, goldenrod, orange, orangered, red, darkred)
+background-image:
