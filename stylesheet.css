@@ -1,7 +1,15 @@
 
 cite:only-of-type
 {background-color:red;}
+blockquote {text-align:justify;
+            max-width:50%;
 
+
+
+
+
+                    }
+body p:firstchild {font-weight:heavy;}
 
 tr:nth-child(odd)
 {background-color:grey;}
@@ -19,9 +27,10 @@ tr:nth-child(even)
     text-transform: capitalize}
 
 body {
-    margin:auto;
+    margin:auto%;
+    max-width:90%;
     background-image:linear-gradient(to bottom, goldenrod, orange, orangered, red, darkred)
-    }
+                    }
 
 .farmer {border-left:deepskyblue solid 3px}
 
